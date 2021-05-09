@@ -7,6 +7,7 @@ print('Para dividir digite -> D')
 print('Para multiplicar digite -> M')
 print('Para exponencializar digite -> E')
 print("**********************************")
+
 operacao = input('Digite a operação que deseja realizar: ') .upper()
 if(n2 == 0 and operacao == 'D'):
     print('Não é possivel realizado divisão, pois não da pra dividir {:.0f} por 0'.format(n1))
